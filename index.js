@@ -1,4 +1,4 @@
-const array = [].slice(likeArray);
+const array = [].slice.call(likeArray);
 
 // better
 const array = [...likeArray];
