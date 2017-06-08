@@ -35,3 +35,10 @@ for (let i = 0, len = Math.max(dataArray.length, count); i < len; i++) {
 // new
 const array4 = dataArray.slice(0, count);
 dataArray.splice(count);
+
+
+const str = '1234';
+str.indexOf('1') !== -1;
+
+// new
+~str.indexOf('1');
